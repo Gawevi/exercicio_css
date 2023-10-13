@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.esporte {
+    color: green;
+}
+
+.economia {
+    color: gold;
+}
+
+.anime {
+    color: red;
+}
+
+.jogo {
+    color: blue;
+}
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    height: 180px;
+}
+
+.artigos article {
+    width: 30%;
+}
