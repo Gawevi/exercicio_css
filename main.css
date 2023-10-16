@@ -4,43 +4,50 @@
     padding: 0;
 }
 
-BODY {background-color: paleturquoise;}
-
 .esporte {
     color: green;
+    background-color: aqua;
 }
 
 .economia {
     color: gold;
+    background-color: black;
 }
 
 .anime {
     color: red;
+    background-color: teal;
 }
 
 .jogo {
     color: blue;
+    background-color: burlywood;
 }
 
 header li {
     display: inline;
+    background-color: aquamarine;
 }
 
 .container {
     width: 1366px;
     margin: 0 auto;
+    background-color: beige;
 }
 
 .artigos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: brown;
 }
 
 .artigos article img {
     height: 180px;
+    background-color: violet;
 }
 
 .artigos article {
     width: 30%;
+    background-color: tomato;
 }
